@@ -194,7 +194,7 @@ function kizu.load_syntax()
         ModeMsg = { fg = kizu.foreground, bg = kizu.none, style = "bold" },
         MatchParen = { fg = kizu.red, bg = kizu.none },
         Normal = { fg = kizu.foreground, bg = kizu.background },
-        NormalFloat = { fg = kizu.foreground, bg = kizu.grey },
+        NormalFloat = { fg = kizu.foreground, bg = kizu.bright_black },
         NonText = { fg = kizu.bright_black },
         Pmenu = { fg = kizu.foreground, bg = kizu.bright_black },
         PmenuSel = { fg = kizu.bright_black, bg = kizu.blue },
