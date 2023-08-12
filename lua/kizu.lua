@@ -1,10 +1,11 @@
-local function get_lighter_color(color, hex)
+local function get_darker_color(color, hex)
     local t = tostring(color)
     local s = string.sub(t, 2, 7)
-    local after_color = tonumber("0x" .. s) + hex
+    local after_color = tonumber("0x" .. s) - hex
     local final_color = "#" .. string.format("%x", after_color)
     return final_color
 end
+
 
 local kizu = {
     foreground    = "#C5C8C9",
@@ -26,7 +27,7 @@ local kizu = {
     bright_cyan   = "#7FC8DB",
     bright_white  = "#CCCCCC",
     none          = "NONE",
-    grey          = get_lighter_color("#0B0F10", 0xf0f10),
+    grey          = get_darker_color("#C5C8C9", 0x363940),
 }
 
 
