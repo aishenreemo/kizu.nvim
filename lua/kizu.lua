@@ -190,7 +190,7 @@ function kizu.load_syntax()
         iCursor = { fg = kizu.none, bg = kizu.none, style = "reverse" },
         IncSearch = { fg = kizu.grey, bg = kizu.orange, style = kizu.none },
         lCursor = { fg = kizu.none, bg = kizu.none, style = "reverse" },
-        LineNr = { fg = kizu.bright_black },
+        LineNr = { fg = kizu.grey },
         ModeMsg = { fg = kizu.foreground, bg = kizu.none, style = "bold" },
         MatchParen = { fg = kizu.red, bg = kizu.none },
         Normal = { fg = kizu.foreground, bg = kizu.background },
