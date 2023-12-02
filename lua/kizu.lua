@@ -276,6 +276,14 @@ function kizu.load_plugin_syntax()
         -- ==================
         TelescopeBorder                      = { fg = kizu.cyan },
         TelescopePromptBorder                = { fg = kizu.blue },
+
+        -- ==================
+        -- GitSigns Nvim
+        -- ==================
+        GitSignsAdd                          = { fg = kizu.green, bg = kizu.none },
+        GitSignsChange                       = { fg = kizu.orange, bg = kizu.none },
+        GitSignsDelete                       = { fg = kizu.red, bg = kizu.none },
+        GitSignsChangeDelete                 = { fg = kizu.violet, bg = kizu.none },
     }
 
     return plugin_syntax
